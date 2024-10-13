@@ -4,7 +4,7 @@ module.exports = {
     name: "shell",
     usedby: 2,
     info: "Execute shell commands",
-    onPrefix: true,
+    onPrefix: false,
     nickName: ["exec", "linux"],
     dev: "Jonell Magallanes",
     cooldowns: 3,

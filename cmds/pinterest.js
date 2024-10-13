@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs-extra");
 
 module.exports = {
-    name: "pin",
+    name: "pinterest",
     version: "1.0",
     usedby: 0,
     info: "Finding Image from Pinterest",

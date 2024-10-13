@@ -12,7 +12,7 @@ module.exports = {
     name: "member",
     usedby: 1,
     info: "Manage group members",
-    onPrefix: true,
+    onPrefix: false,
     usages: "",
     cooldowns: 2,
     dev: "Jonell Magallanes",

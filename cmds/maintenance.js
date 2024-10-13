@@ -2,7 +2,7 @@ module.exports = {
   name: "maintenance",
   usedby: 2,
     info: "Maintenance bot",
-    onPrefix: true,
+    onPrefix: false,
     hide: true,
     dev: "Jonell Magallanes",  cooldowns: 5,
 

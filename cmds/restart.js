@@ -4,7 +4,7 @@ module.exports = {
     name: "restart",
     usedby: 2,
     info: "Restarts the bot",
-    onPrefix: true,
+    onPrefix: false,
     cooldowns: 20,
 
     onLaunch: async function ({ api, event }) {

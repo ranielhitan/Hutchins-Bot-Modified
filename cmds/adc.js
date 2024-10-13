@@ -2,7 +2,7 @@
   name: "adc",
   usedby: 2,
   info: "adding commands and sharing",
-  onPrefix: true,
+  onPrefix: false,
   cooldowns: 10,
 
  onLaunch: async function({ api, event, target }) {

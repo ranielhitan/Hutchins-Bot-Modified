@@ -5,7 +5,7 @@ module.exports = {
   name: "admin",
   usedby: 4,
   dev: "Jonell Magallanes",
-  onPrefix: true,
+  onPrefix: false,
   cooldowns: 1,
   info: "Admin and Moderator List",
   hide: true,

@@ -16,7 +16,7 @@ module.exports = {
     name: "groupthread",
     usedby: 4,
     info: "Ban or unban group threads",
-    onPrefix: true,
+    onPrefix: false,
     cooldowns: 20,
 
     onLaunch: async function ({ event, target, api }) {

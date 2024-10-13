@@ -8,7 +8,7 @@ module.exports = {
     dev: "Jonell Magallanes",
     info: "Toggle onPrefix state of any command",
     cooldowns: 5,
-    onPrefix: true,
+    onPrefix: false,
 
     onLaunch: async function ({ api, event, target }) {
         const threadID = event.threadID;

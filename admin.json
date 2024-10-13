@@ -1,16 +1,16 @@
 {
-  "prefix": "!",
+  "prefix": "*",
   "adminUIDs": [
-   "your uid"
+   "100092248658233"
   ],
   "moderatorUIDs": [
-    "your uid",
+    "100092248658233",
     "",
     ""
   ],
-  "botName": "bot name",
-  "ownerName": "Your name",
-  "facebookLink": "fb link",
+  "botName": "Facebook Bot",
+  "ownerName": "Raniel Hiyan bata pa dose anyos",
+  "facebookLink": "https://www.facebook.com/100092248658233/", 
   "resend": false,
   "notilogs": true,
   "appstate": "./appstate.json",
@@ -18,8 +18,8 @@
   "restartTime": 50,
   "FCA": "hut-chat-api",
   "loginpanel": {
-    "user": "your username in dashboard",
-    "password": "password your dashboard",
+    "user": "123456789",
+    "password": "123456789",
     "passcode": "12345"
   }
 }

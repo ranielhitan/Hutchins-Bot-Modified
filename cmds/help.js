@@ -7,7 +7,7 @@ module.exports = {
     usedby: 0,
     info: "display available commands",
     dev: "Jonell Magallanes",
-    onPrefix: true,
+    onPrefix: false,
     usages: "help",
     cooldowns: 10,
 
@@ -43,7 +43,7 @@ module.exports = {
                 helpMessage += `│✧ ${commandInfo.name || "Unknown"}\n`;
             });
 
-            helpMessage += `╰───────────◊\n\n(Page ${page}/${totalPages})\nType ${adminConfig.prefix}help <page number> to see more commands.\n\nDev: ${adminConfig.ownerName}`;
+            helpMessage += `╰───────────◊\n\n(Page ${page}/${totalPages})\nType help <page number> to see more commands.\n\nDev: ${adminConfig.ownerName}`;
 
             return api.shareContact(helpMessage, api.getCurrentUserID(), event.threadID);
         }

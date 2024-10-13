@@ -6,7 +6,7 @@ module.exports = {
   name: "ng",
   usedby: 0,
   info: "Get music from Newgrounds",
-  onPrefix: true,
+  onPrefix: false,
   dev: "Jonell Magallanes",
   cooldowns: 10,
 

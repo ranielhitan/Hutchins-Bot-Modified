@@ -7,7 +7,7 @@ module.exports = {
   name: "info",
   usedby: 0,
   dev: "Jonell Magallanes",
-  info: "Show the info of owner",  onPrefix: true,
+  info: "Show the info of owner",  onPrefix: false,
   cooldowns: 8,
 
     onLaunch: async function ({ api, event }) {

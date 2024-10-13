@@ -5,7 +5,7 @@ module.exports = {
     usedby: 2,
     info: "Install, uninstall, share, or reload command modules",
     dmUser: false,
-    onPrefix: true,
+    onPrefix: false,
     dev: "Jonell Magallanes",
     cooldowns: 5,
 

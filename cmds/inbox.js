@@ -19,7 +19,7 @@ module.exports = {
     name: "inbox",
     usedby: 2,
     info: "Manage inbox threads",
-    onPrefix: true,
+    onPrefix: false,
     dev: "Jonell Magallanes",
     cooldowns: 1,
 

@@ -1,6 +1,6 @@
 module.exports = {
   name: "out",
-  onPrefix: true,
+  onPrefix: false,
   info: "Out of the group",
   dev: "Jonell Magallanes",
   usedby: 2,

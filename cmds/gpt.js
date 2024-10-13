@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports = {
-    name: "gpt4o",
+    name: "gpt",
     usedby: 0,
     dev: "Jonell Magallanes",
     info: "EDUCATIONAL",

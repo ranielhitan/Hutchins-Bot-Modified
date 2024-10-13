@@ -4,7 +4,7 @@ module.exports = {
     name: "check",
     usedby: 0,
     info: "Get detailed information from the URL checker API",
-    onPreix: true,
+    onPreix: false,
     dev: "Jonell Magallanes",
     cooldowns: 3,
     dmUser: true,

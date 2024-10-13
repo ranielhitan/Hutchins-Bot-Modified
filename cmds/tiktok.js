@@ -4,7 +4,7 @@ const path = require("path");
 module.exports = {
   name: "tiktok",
   usedby: 0,
-  onPrefix: true,
+  onPrefix: false,
   dev: "Jonell Magallanes",
   cooldowns: 30,
 

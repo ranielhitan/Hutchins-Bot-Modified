@@ -19,7 +19,7 @@ module.exports = {
     name: "banlist",
     usedby: 4,
     info: "Get list of all banned threads and users",
-    onPrefix: true,
+    onPrefix: false,
     cooldowns: 20,
 
     onLaunch: async function ({ event, api }) {

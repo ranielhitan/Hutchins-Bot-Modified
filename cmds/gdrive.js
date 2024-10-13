@@ -5,7 +5,7 @@ module.exports = {
   usedby: 0,
   dev: "Jonell Magallanes",
   info: "Get the URL Download from Video, Audio is sent from the group and Get Google Drive Link No Expired Link",
-  onPrefix: true,
+  onPrefix: false,
   dmUser: false,
   usages: "getLink",
   cooldowns: 5,

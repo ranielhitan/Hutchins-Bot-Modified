@@ -35,7 +35,7 @@ module.exports = {
     name: "badwords",
     usedby: 0,
     info: "Manages the list of banned words and options to enable/disable filtering",
-    onPrefix: true,
+    onPrefix: false,
     dev: "Jonell Magallanes",
     cooldowns: 6,
     onLaunch: async function ({ event, api, target }) {

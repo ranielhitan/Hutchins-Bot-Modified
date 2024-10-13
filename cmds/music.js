@@ -8,7 +8,7 @@ module.exports = {
     usedby: 0,
     version: "1.0.0",
     info: "Get music",
-    onPrefix: true,
+    onPrefix: false,
     dev: "Jonell Magallanes",
     cooldowns: 10,
 

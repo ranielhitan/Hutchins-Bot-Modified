@@ -2,7 +2,7 @@ module.exports = {
   name: "sendcomment",
   usedby: 4,
     info: "Send a comment Post using bot",
-onPefix: true,
+onPefix: false,
 dev: "Jonell Magallanes",
   cooldowns: 5,
 onLaunch: async function ({ api, event, target }) {

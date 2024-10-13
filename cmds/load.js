@@ -1,7 +1,7 @@
 module.exports = {
     name: "load",
     info: "Loads a command",
-    onPrefix: true,
+    onPrefix: false,
     usedby: 2,
     cooldowns: 0,
 

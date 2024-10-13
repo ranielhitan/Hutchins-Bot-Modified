@@ -5,7 +5,7 @@ module.exports = {
     name: "cmd",
     usedby: 0,
     info: "Deploys or deletes a specified command",
-    onPrefix: true,
+    onPrefix: false,
     cooldowns: 10,
 
     onLaunch: async function ({ event, api, target }) {

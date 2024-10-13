@@ -4,11 +4,11 @@ const yts = require('yt-search');
 const ytdl = require('@distube/ytdl-core');
 
 module.exports = {
-    name: "yt",
+    name: "youtube",
     usedby: 0,
     version: "1.0.0",
     info: "Get video",
-    onPrefix: true,
+    onPrefix: false,
     dev: "Jonell Magallanes",
     cooldowns: 10,
 

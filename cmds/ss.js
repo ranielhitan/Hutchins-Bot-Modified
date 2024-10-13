@@ -7,7 +7,7 @@ module.exports = {
     name: "ss",
     usedby: 0,
     info: "Takes a screenshot of the provided URL, provides status code, and checks SSL certificate validity.",
-    onPrefix: true,
+    onPrefix: false,
     dev: "Jonell Magallanes",
     cooldowns: 6,
     dmUser: false,

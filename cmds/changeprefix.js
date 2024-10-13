@@ -6,7 +6,7 @@ module.exports = {
     info: "Changes the bot command prefix",
     dev: "Jonell Magallanes",
     usages: "changeprefix <new prefix>",
-    onPrefix: true,
+    onPrefix: false,
     cooldowns: 20,
 
     onLaunch: async function ({ api, event, target }) {

@@ -4,7 +4,7 @@ module.exports = {
     name: "tinyurl",
     usedby: 0,
     info: "Get a shortened URL using the TinyURL API",
-    onPrefix: true,
+    onPrefix: false,
     dev: "Jonell Magallanes",
     cooldowns: 3,
     dmUser: false,

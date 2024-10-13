@@ -16,7 +16,7 @@ module.exports = {
     name: "users",
     usedby: 4,
     info: "Ban or unban users",
-    onPrefix: true,
+    onPrefix: false,
     cooldowns: 20,
 
     onLaunch: async function ({ event, target, api }) {

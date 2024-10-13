@@ -1,4 +1,4 @@
-music  const fs = require('fs');
+const  fs = require('fs');
 
 const path = require('path');
 
@@ -8,13 +8,13 @@ const yts = require('yt-search');
 
 module.exports = {
 
-name: "music",
+name: "music2",
 
 usedby: 0,
 
 info: "Get music",
 
-onPrefix: true,
+onPrefix: false,
 
 dev: "Jonell Magallanes",
 
